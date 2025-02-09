@@ -94,3 +94,33 @@
     cursor: pointer;
     border-radius: 5px;
 }
+
+.recent-news-childs{
+    display: flex;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.news-btn{
+    background-color: #006a50; 
+}
+.time{
+    display: flex;
+}
+.donat-bangladesh{
+    text-align: center;
+    margin: 30px 20px 20px 20px;
+}
+.btn-tk-all{
+    gap: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;  
+    
+}
