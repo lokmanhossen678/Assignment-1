@@ -1,8 +1,11 @@
+*{
+    font-family: Roboto;
+}
 .nav{
     display: flex;
     justify-content: space-around;
 }
-.btn{
+.bton{
     background-color: #e4e2de;
     color: #ecebe6;
     padding: 10px 15px;
@@ -31,7 +34,7 @@
     margin: 20px;
 }
 .text-container{
-    justify-content: left;
+    justify-content: flex-start;
     margin: 50px 20px;
     
 }
@@ -47,8 +50,6 @@
 }
 .the-Vision{
     background-color: #f5f5f5;
-}
-.the-Vision{
     margin: 20px;
     padding: 20px;
 }
@@ -94,6 +95,13 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.recent-news-parents{
+   background-color: rgb(236, 229, 229); 
+   padding: 10px;
+   border-radius: 10px;
+   gap: 10px;
+   margin: 10px;
+}
 
 .recent-news-childs{
     display: flex;
@@ -104,23 +112,101 @@
     gap: 10px;
 }
 .news-btn{
-    background-color: #006a50; 
-}
-.time{
-    display: flex;
+    background-color: #006a50;
+    color: white;
 }
 .donat-bangladesh{
     text-align: center;
+    display: flex;
+    flex-direction: column;
     margin: 30px 20px 20px 20px;
+    align-items: center;
 }
-.btn-tk-all{
-    gap: 20px;
-    background-color: #ffffff;
+
+img{
+    border-radius: 10px;
+}
+
+.donat-btn {
+    color: rgb(7, 6, 6);
+    background-color: white;
+    border: 2px solid rgb(230, 229, 229); /* Fixed border */
+    border-radius: 10px; /* Fixed border-radius */
+    padding: 20px 40px;
+    margin: 10px;
+    font-size: 36px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+}
+
+.donat-btn:hover{
+    background-color: #096f56;
+}
+
+
+.fiveHundred {
+    background-color: #cae4d9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Darker shadow for visibility */
+    border: 2px solid navajowhite; /* Fixed border */
+}
+
+.input{
+    padding: 20px;
+    margin: 20px;
     border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    padding: 10px 20px;
-    font-size: 25px;
-    cursor: pointer;  
-    
+    font-size: 24px;
+    text-align: center;
+    width: 90%;
+}
+.SubscribeNewsletter{
+    background-color: #c6e4d6;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: #5bdb1f;
+}
+.emailWithsubscribe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+}
+.subscribe{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #096f56;
+    color: white;
+}
+.inputLast{
+    padding: 20px;
+    margin: 20px;
+    text-align: start;
+
+}
+.drMuhammadYunus{
+    background-color: #c6e4d6;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+
 }
