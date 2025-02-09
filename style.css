@@ -203,7 +203,9 @@ img{
     background-color: #c6e4d6;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
-    width: 90%;
+    background-position: top left;
+    background-position: 20px top;
+    width: 95%;
     height: auto;
     margin: 20px auto;
     padding: 20px;
